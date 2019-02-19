@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "mocha"
+    "test": "mocha --exit"
   },
   "author": "App in the Air",
   "license": "ISC",
