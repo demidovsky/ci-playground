@@ -1,10 +1,10 @@
 const finalhandler = require('finalhandler')
 const http = require('http')
 const serveStatic = require('serve-static')
-const PORT = 3000;
+const PORT = 4000;
 
 // Serve up public folder
-const serve = serveStatic('public', {'index': ['index.html', 'index.htm']})
+const serve = serveStatic('public', { 'index': ['index.html', 'index.htm'] })
 
 // Create server
 const server = http.createServer(function onRequest (req, res) {
