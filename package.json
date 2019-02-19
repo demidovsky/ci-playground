@@ -1,0 +1,20 @@
+{
+  "name": "ci-playground",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demidovsky/ci-playground.git"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "App in the Air",
+  "license": "ISC",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "serve-static": "^1.13.2"
+  }
+}
