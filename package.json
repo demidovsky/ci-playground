@@ -9,12 +9,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "App in the Air",
   "license": "ISC",
   "dependencies": {
     "finalhandler": "^1.1.1",
     "serve-static": "^1.13.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "supertest": "^3.4.2"
   }
 }
