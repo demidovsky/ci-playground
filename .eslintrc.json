@@ -1,0 +1,30 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "plugins": ["promise"],
+  "extends": ["standard", "plugin:promise/recommended"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "no-console": 0,
+    "func-names": 0,
+    "complexity": ["warn", 7],
+    "no-multiple-empty-lines": ["error", {"max": 2}],
+    "promise/avoid-new": "off",
+    "quote-props": ["error", "consistent"],
+    "no-plusplus": 0,
+    "space-before-function-paren": ["error", "always"],
+    "eol-last": "warn",
+    "spaced-comment": 0,
+    "key-spacing": 0,
+    "comma-dangle": ["warn", "only-multiline"],
+    "valid-jsdoc": ["warn", { "requireReturnDescription": false, "requireParamDescription": false }],
+    "max-len": ["error", { "code": 120, "comments": 120 }],
+    "no-multi-str": 0,
+    "curly": 0
+  }
+}
