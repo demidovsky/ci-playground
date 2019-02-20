@@ -5,6 +5,7 @@ const expect = chai.expect;
 const request = require('supertest');
 
 describe('Basic integration test', function() {
+
   describe('GET index', function() { 
     it('should get index page', function(done) { 
       request(app).get('/')
@@ -24,4 +25,5 @@ describe('GET html', function() {
         }); 
     });
   });
+
 });
