@@ -14,4 +14,5 @@ const server = http.createServer(function onRequest (req, res) {
 // Listen
 server.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`));
 
+// Export
 module.exports = server;
